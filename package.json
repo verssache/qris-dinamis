@@ -1,0 +1,44 @@
+{
+  "name": "qris-dinamis",
+  "version": "2.0.0",
+  "description": "QRIS Static to Dynamic converter — parse, validate, and convert Indonesian QRIS payment codes",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "cli": "tsx src/cli.ts"
+  },
+  "keywords": [
+    "qris",
+    "qr-code",
+    "payment",
+    "indonesia",
+    "emvco",
+    "gpn"
+  ],
+  "author": "Gidhan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/verssache/qris-dinamis"
+  },
+  "dependencies": {
+    "jsqr": "^1.4.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^3.4.19",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2",
+    "vite": "^8.0.3"
+  }
+}
